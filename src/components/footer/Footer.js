@@ -6,7 +6,7 @@ import { BsGithub, BsFacebook, BsInstagram } from 'react-icons/bs'
 const Footer = () => {
   return (
     <section className='containers'>
-      <p> por Vizmar Vizcaino</p>
+      <p>Creado por Vizmar Vizcaino</p>
       <p>Todos los derechos reservados <FaRegCopyright /></p>
       <div className="containers__socials">
         <a href="https://www.facebook.com/vizmar.vizcaino" target='_blank' rel="noopener noreferrer"><BsFacebook className='socials-icons' /></a>
