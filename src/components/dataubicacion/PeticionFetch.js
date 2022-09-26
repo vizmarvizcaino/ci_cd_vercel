@@ -22,7 +22,7 @@ function PeticionApi() {
 
   useEffect(() => {
     requestApi()
-  }, [])
+  },[])
 
   return (
 

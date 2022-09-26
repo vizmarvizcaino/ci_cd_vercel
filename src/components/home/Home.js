@@ -1,5 +1,4 @@
 import React from 'react'
-import NavPrincipal from '../header/navprincipal/NavPrincipal'
 import About from '../about/About'
 import Contact from '../contact/Contact'
 import Experience from '../experience/Experience'

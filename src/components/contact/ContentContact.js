@@ -21,19 +21,19 @@ const ContentContact = () => {
           <MdOutlineEmail className='contact__option-icon' />
           <h4>Email</h4>
           <h5>vizmar.vizcaino@gmail.com</h5>
-          <a href="mailto:vizmar.vizcaino@gmail.com" target='_blank'>enviar correo</a>
+          <a href="mailto:vizmar.vizcaino@gmail.com" target='_blank' rel="noreferrer">enviar correo</a>
         </article>
         <article className="contact__option">
           <RiMessengerLine className='contact__option-icon' />
           <h4>Messenger</h4>
           <h5>vizmar vizcaino</h5>
-          <a href="https://m.me/vizmar.vizcaino" target='_blank'>enviar mensaje</a>
+          <a href="https://m.me/vizmar.vizcaino" target='_blank' rel="noreferrer">enviar mensaje</a>
         </article>
         <article className="contact__option">
           <BsWhatsapp className='contact__option-icon' />
           <h4>WhtasApp</h4>
           <h5>(+57) 317 7047876</h5>
-          <a href="https://api.whatsapp.com/send?phone=3177047876" target='_blank'>enviar mensaje</a>
+          <a href="https://api.whatsapp.com/send?phone=3177047876" target='_blank' rel="noreferrer">enviar mensaje</a>
         </article>
       </div>
       <form ref={form} onSubmit={sendEmail}>

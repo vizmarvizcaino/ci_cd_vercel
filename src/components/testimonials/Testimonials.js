@@ -3,8 +3,7 @@ import './testimonials.css'
 import TestimonialsTodo from './TestimonialsTodo'
 import Imag1 from '../../assets/avatar1.jpg'
 import Imag2 from '../../assets/avatar2.jpg'
-import Imag3 from '../../assets/avatar3.jpg'
-import Imag4 from '../../assets/avatar4.jpg'
+
 
 const Testimonials = () => {
   return (
